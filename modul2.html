@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+    <style>
+        body {
+            text-align: center;
+            display:flex;
+            width: auto;
+            height: auto;
+        }
+        form {
+            width: fit-content;
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="form1">
+    <p>Form Biasa</p>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder=" Nama lengkap " />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder=" Username " />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder=" Email " />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder=" Passowrd " />
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Pekerjaan</label>
+            <select name="agama">
+                <option value="karyawan">Karyawan</option>
+                <option value="ceo">CEO</option>
+                <option value="pelajar">Pelajar</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label>Alamat</label>
+            <textarea name="alamat"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+    </div>
+    <div class="form2">
+    <p>Form dengan Tabel</p>
+    <form>
+        <fieldset>
+            <legend>Registrasi</legend>
+            <table>
+                <tr>
+                    <td><label>Nama:</label></td>
+                    <td><input type="text" name="nama" placeholder=" Nama lengkap " /></td>
+                </tr>
+                <tr>
+                    <td><label>Username:</label></td>
+                    <td><input type="text" name="username" placeholder=" Username " /></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" name="email" placeholder=" Email " /></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" name="password" placeholder=" Passowrd " /></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                        <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+                    
+                </tr>
+                <tr>
+                    <td><label>Pekerjaan</label></td>
+                    <td><select name="pekerjaan">
+                        <option value="karyawan">Karyawan</option>
+                        <option value="ceo">CEO</option>
+                        <option value="pelajar">Pelajar</option>
+                        <option value="other">Other</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+                
+            </table>
+            <input type="submit" name="submit" value="Daftar" />
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
