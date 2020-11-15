@@ -1,0 +1,43 @@
+$navbar-colour1 : #fdc407;
+$navbar-colour2 : #22276e;
+$text-color1 : black;
+$text-color2 : white;
+$margin : 22px;
+$align : center;
+
+.navbar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $navbar-colour1;
+    }
+    li {
+        float: right;
+        margin-right: $margin;
+    }
+    li a {
+        display: block;
+        color: $text-color1;
+        text-align: $align;
+        padding: 16px $margin;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: $navbar-colour2;
+        color: $text-color2 ;
+    }
+}
+$img-width : 100%;
+$img-height : 680px;
+.image-header {
+    img {
+        margin: 0;
+        padding: 0;
+        width: $img-width;
+        height: $img-height;
+        -webkit-filter: brightness(156%);
+        
+    }
+}
