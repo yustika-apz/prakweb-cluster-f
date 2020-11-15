@@ -1,0 +1,47 @@
+.satu, .tiga {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.dua {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  color: white;
+  border: 10px solid black;
+}
+
+.satu {
+  margin-left: 330px;
+  background-color: chartreuse;
+}
+
+.dua {
+  margin-left: 330px;
+  background-color: gold;
+}
+
+.tiga {
+  margin-left: 330px;
+  background-color: red;
+}
+
+.content {
+  margin-left: 333.33333px;
+}
+
+.footer {
+  margin-top: 2000px;
+  margin-left: 300px;
+  position: relative;
+  height: auto;
+  padding: 10px 0;
+  background-color: salmon;
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+}
+/*# sourceMappingURL=inheritance.css.map */
